@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground: 0, 0, 0;
+  --background: 214, 219, 220;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground: 255, 255, 255;
+    --background: 0, 0, 0;
+  }
+}
+body {
+  color: rgb(var(--foreground));
+  background: rgb(var(--background));
+}
+
+#homepage {
+  zoom: 2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+}
+.nav {
+  padding: 0.5em;
+  gap: 2.3em;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#mobile-homepage {
+  zoom: 2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#mobile-homepage .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+}
+#mobile-homepage .nav {
+  padding: 1em;
+  gap: 1em;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
