@@ -2,9 +2,11 @@
 import Navbar from "../components/interface/navbar";
 export default function About() {
   return (
-    <>
+    <div className="layout">
       <Navbar />
-      About
-    </>
+      <div className="main">
+        About
+      </div>
+    </div>
   );
 }
