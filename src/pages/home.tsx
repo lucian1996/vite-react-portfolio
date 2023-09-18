@@ -12,7 +12,8 @@ export default function Home() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        key={isMobile ? "homepage" : "mobile-homepage"}
+        transition={{ duration: 1 }}
+        key={isMobile ? "homepage" : "mobile-homepage" + '/'}
       >
         <div className="title">Lucian</div>
         <div className="nav">
