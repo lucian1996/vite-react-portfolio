@@ -62,7 +62,6 @@ body {
 }
 
 .layout {
-  background-color: rgb(28, 82, 79);
   height: 100dvh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -84,23 +83,18 @@ body {
 }
 .main {
   height: 100%;
-  background-color: darkblue;
   grid-area: main;
 }
 .home-layout {
-  background-color: rgb(28, 82, 79);
   height: 100dvh;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-auto-columns: 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    'main main main main'
-    'main main main main'
-    'main main main main'
-    'main main main main'
-    'main main main main'
-    'main main main main';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-main {
+  height: 100%;
+  grid-area: main;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

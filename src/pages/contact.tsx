@@ -2,9 +2,11 @@ import Navbar from "../components/interface/navbar";
 
 export default function Contact() {
   return (
-    <div>
+    <div className="layout">
       <Navbar />
-      Contact
+      <div className="main">
+        Contact
+      </div>
     </div>
   );
 }

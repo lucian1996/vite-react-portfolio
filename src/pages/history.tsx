@@ -2,9 +2,11 @@ import Navbar from "../components/interface/navbar";
 
 export default function History() {
   return (
-    <div>
+    <div className="layout">
       <Navbar />
-      History
+      <div className="main">
+        History
+      </div>
     </div>
   );
 }

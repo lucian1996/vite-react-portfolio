@@ -2,9 +2,11 @@ import Navbar from "../components/interface/navbar";
 
 export default function Projects() {
   return (
-    <div>
+    <div className="layout">
       <Navbar />
-      Projects
+      <div className="main">
+        Projects
+      </div>
     </div>
   );
 }
