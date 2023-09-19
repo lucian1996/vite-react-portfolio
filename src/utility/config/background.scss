@@ -2,7 +2,7 @@
 @use 'sass:math';
 /* eslint-disable */
 
-$quantity: 15;
+$quantity: 35;
 
 html,
 body {
@@ -30,7 +30,7 @@ body {
   }
 
   &::before {
-    background: black;
+    background: rgb(27, 31, 72);
     opacity: 0.4;
     animation: drift ease alternate infinite;
   }
@@ -38,7 +38,7 @@ body {
   &::after {
     background: white;
     opacity: 0;
-    box-shadow: 0 0 0vw 0vw yellow;
+    box-shadow: 0 0 0vw 0vw rgb(104, 249, 68);
     animation:
       drift ease alternate infinite,
       flash ease infinite;
@@ -93,14 +93,14 @@ body {
 
   @keyframes flash {
     0%,
-    30%,
+    300%,
     100% {
       opacity: 0;
-      box-shadow: 0 0 0vw 0vw yellow;
+      box-shadow: 0 0 0vw 0vw rgb(47, 255, 92);
     }
     5% {
       opacity: 1;
-      box-shadow: 0 0 2vw 0.4vw yellow;
+      box-shadow: 0 0 2vw 0.4vw rgb(34, 255, 82);
     }
   }
 }

@@ -1,12 +1,16 @@
 'use client';
-import Navbar from "../components/interface/navbar";
+import Fireflies from "../components/interface/fireflies";
+import Footer from "../components/interface/footer";
+import Header from "../components/interface/header";
 export default function About() {
   return (
     <div className="layout">
-      <Navbar />
+      <Header />
       <div className="main">
         About
       </div>
+      <Footer />
+      <Fireflies />
     </div>
   );
 }
