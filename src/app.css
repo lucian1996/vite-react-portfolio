@@ -18,6 +18,7 @@ body {
 }
 
 #homepage {
+  position: absolute;
   zoom: 2;
   height: 100%;
   display: flex;
@@ -86,6 +87,7 @@ body {
   grid-area: main;
 }
 .home-layout {
+  overflow: hidden;
   height: 100dvh;
   display: flex;
   justify-content: center;
@@ -97,5 +99,18 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.home-layout {
+  opacity: 0; /* Start with opacity 0 */
+  transition: opacity 0.5s; /* Add a smooth transition effect */
+}
+
+.fade-in {
+  opacity: 1; /* When the class is applied, set opacity to 1 */
+}
+
+.fade-out {
+  opacity: 0; /* When the class is applied, set opacity to 0 */
 }
 
