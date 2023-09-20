@@ -7,7 +7,7 @@ export default function Header() {
   // const homepage = location.pathname === '/';
 
   return (
-    <div className="header nav">
+    <div className="nav">
       {routes.map((page: PageProps, index: number) => (
         <Link
           key={index}

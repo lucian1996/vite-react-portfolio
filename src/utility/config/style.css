@@ -16,6 +16,7 @@ body {
   font-size: 3em;
   color: rgb(var(--foreground));
   background: rgb(var(--background));
+  font-weight: 100;
 }
 
 #homepage {
@@ -81,11 +82,50 @@ body::-webkit-scrollbar-thumb {
   font-size: 6rem;
 }
 .nav {
-  font-weight: 100;
   padding: 0.5em;
-  gap: 2.3em;
+  gap: 2em;
   align-items: center;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#Projects {
+  background-color: rgba(37, 37, 54, 0.245);
+  width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#Projects .project {
+  background-color: rgba(48, 48, 123, 0.264);
+
+  margin: 42px;
+  padding: 16px;
+  border-radius: 12px;
+  padding-left: 42px;
+  padding-right: 42px;
+}
+
+#Projects .project-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+#Projects .project-photo-frame {
+  margin: 12px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center vertically */
+  
+}
+
+#Projects .project-photo {
+  border-radius: 12px;
+  width: 90%;
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  height: 90%; /* Maintain aspect ratio */
 }

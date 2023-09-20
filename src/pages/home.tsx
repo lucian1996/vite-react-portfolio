@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import GetIsMobile from "../components/utility/get-is-mobile";
 export default function Home() {
   const isMobile = GetIsMobile()
-  console.log(isMobile)
   return (
     <motion.div
       key='current'

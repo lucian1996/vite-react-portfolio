@@ -1,14 +1,9 @@
-
 export default function Footer() {
   return (
-    <div className="footer">
-      <div className="flex justify-between">
-        <div>Luke Anthony</div>
-        <div>
-          <div>5145784800</div>
-          <div>luciai.io@outlook.com</div>
-        </div>
-      </div>
+    <div className="icons">
+        <img height="45" width="45" src="https://cdn.simpleicons.org/linkedin/white" />
+        <img height="45" width="45" src="https://cdn.simpleicons.org/github/white" />
+        <img height="45" width="45" src="https://cdn.simpleicons.org/x/white" />
     </div>
   )
 }

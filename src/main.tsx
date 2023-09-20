@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './utility/config/app.css';
+import './utility/config/style.css';
 import { BrowserRouter } from 'react-router-dom';
 import AnimatedRoutes from './components/interface/animated-routes.tsx';
 
