@@ -5,7 +5,7 @@ export default function ProjectList() {
 
   return (
     <div id="Projects" className="main ">
-      <div className="project-frame">
+      <div className="frame">
         {projectData.map((project, index) => (
           <Project key={index} {...project} />
         ))}

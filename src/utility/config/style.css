@@ -100,23 +100,28 @@ body::-webkit-scrollbar-thumb {
 }
 
 #Projects {
-  min-width: 1000px;
-  max-width: 1400px;
   height: 100%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   flex-direction: column;
 }
+@media screen and (min-width: 1080px) {
+  #Projects {
+    min-width: 1000px;
+    max-width: 1400px;
+  }
+}
 
-#Projects .project-frame {
+
+#Projects .frame {
   /* background-color: rgba(48, 123, 99, 0.264); */
   background-color: rgba(37, 37, 54, 0.245);
   margin: 0 auto; /* Center the element horizontally */
   width: 100%; /* Occupy the full width of the viewport */
   padding: 10px;
   padding-bottom: 55px;
-
+  border-radius: 10px;
 }
 
 #Projects .project {
@@ -129,6 +134,7 @@ body::-webkit-scrollbar-thumb {
   /* background-color: rgba(123, 104, 48, 0.354); */
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 2em;
   width: 100%;
 }
@@ -138,6 +144,9 @@ body::-webkit-scrollbar-thumb {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  gap: 1em;
 }
 #Projects .project-header-info-upper {
   /* background-color: rgba(123, 82, 48, 0.264); */
@@ -152,6 +161,12 @@ body::-webkit-scrollbar-thumb {
 #Projects .project-header-info-title {
   /* background-color: rgba(123, 48, 50, 0.264); */
   font-size: 1.2em;
+}
+@media screen and (max-width: 1080px) {
+  #Projects .project-header-info-title {
+    /* background-color: rgba(123, 48, 50, 0.264); */
+    font-size: 1em;
+  }
 }
 #Projects .project-header-info-date {
   /* background-color: rgba(48, 123, 89, 0.264); */
@@ -186,17 +201,15 @@ body::-webkit-scrollbar-thumb {
   justify-content: center;
   align-items: center;
 }
-#Projects .project-photo {
+#Projects .project-header-photo {
   /* background-color: rgba(48, 123, 99, 0.264); */
   border-radius: 12px;
-  width: 100%;
-  max-width: 100%;
-  height: 90%;
+  min-width: 400px;
 }
 
 #Projects .project-summary {
   font-size: 20pt;
   margin-top: 40px;
-  margin-left: 120px;
-  margin-right: 120px;
+  margin-left: 4em;
+  margin-right: 4em;
 }

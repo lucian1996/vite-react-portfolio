@@ -26,9 +26,7 @@ export default function Project(data: ProjectProps) {
       <div className="project">
         <div className="project-header">
           <div className="project-header-photo-frame">
-            <div className="project-header-photo">
-              <img src={'/' + data.image + '.png'} alt={data.image} />
-            </div>
+            <img className="project-header-photo" src={'/' + data.image + '.png'} alt={data.image} />
           </div>
           <div className="project-header-info">
             <div className="project-header-info-upper">
@@ -73,9 +71,7 @@ export default function Project(data: ProjectProps) {
             </div>
           </div>
           <div className="project-header-photo-frame">
-            <div className="project-header-photo">
-              <img src={'/' + data.image + '.png'} alt={data.image} />
-            </div>
+            <img className="project-header-photo" src={'/' + data.image + '.png'} alt={data.image} />
           </div>
         </div>
         <div className="project-summary">{data.summary}</div>
