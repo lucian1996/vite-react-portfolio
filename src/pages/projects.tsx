@@ -6,15 +6,29 @@ export default function About() {
       <Header />
       <div id="Projects" className="main">
         <div className="project">
-          <div className="project-title">
-            <div>Personal Portfolio</div>
-            <div>September 2023</div>
-          </div>
-          <div className="project-photo-frame">
-            <img className="project-photo" src="/portfolio.png" alt="" width={800} height={800} />
-          </div>
-          <div className="project-summary">
-            summary
+          <div className="project-frame">
+            <div className="project-header">
+              <div className="project-header-info">
+                <div className="project-header-info-upper">
+                  <div className="project-header-info-title">Personal Portfolio</div>
+                  <div className="project-header-info-date">September 2023</div>
+                </div>
+                <div className="project-header-info-tech">
+                  <img src="/vite.svg" alt="vite" width={72} height={72} />
+                  <img src="/react.svg" alt="react" width={72} height={72} />
+                </div>
+              </div>
+              <div className="project-header-photo-frame">
+                <div className="project-header-photo">
+                  <img src="/portfolio.png" alt="portfolio" />
+                </div>
+              </div>
+            </div>
+            <div className="project-summary">
+              Modern and lightweight portfolio designed to 
+              demonstrate an adept understanding of modern CSS alongside
+              contemporary JavaScript libraries such as Framer Motion 
+            </div>
           </div>
         </div>
       </div>
