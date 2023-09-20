@@ -10,12 +10,16 @@ interface ProjectProps {
 }
 
 export default function Project(data: ProjectProps) {
-  const TechIcons = () => {
+  function TechIcons({ reverse }: { reverse?: boolean }) {
     const techIconsArray = data.techArray.map((tech) => (
       <img key={tech} src={`/${tech}.svg`} alt={tech} width={72} height={72} />
     ));
+    if (reverse) {
+      techIconsArray.reverse();
+    }
     return techIconsArray;
-  };
+  }
+
 
   if (data.textLeft) {
     return (
@@ -32,7 +36,7 @@ export default function Project(data: ProjectProps) {
               <div className="project-header-info-date">{data.date}</div>
             </div>
             <div className="project-header-info-tech">
-              <TechIcons />
+              <TechIcons reverse={data.textLeft} />
             </div>
             <div className="project-header-info-links">
               <div className="project-header-info-link">
