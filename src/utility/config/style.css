@@ -13,7 +13,7 @@
   }
 }
 body {
-  font-size: 3em;
+  font-size: 2em;
   color: rgb(var(--foreground));
   background: rgb(var(--background));
   font-weight: 100;
@@ -91,26 +91,30 @@ body::-webkit-scrollbar-thumb {
 }
 
 #Projects {
-  background-color: rgba(37, 37, 54, 0.245);
   width: 1400px;
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   flex-direction: column;
 }
 
-#Projects .project {
-  /* background-color: rgba(48, 48, 123, 0.264); */
-  margin: 42px;
-  padding: 16px;
-  border-radius: 12px;
-  padding-left: 42px;
-  padding-right: 42px;
-}
-
 #Projects .project-frame {
   /* background-color: rgba(48, 123, 99, 0.264); */
+  background-color: rgba(37, 37, 54, 0.245);
+  margin-left: 55px;
+  margin-right: 55px;
+  margin-top: 65px;
+  padding-left: 55px;
+  padding-right: 55px;
 }
+
+#Projects .project {
+  /* background-color: rgba(48, 48, 123, 0.264); */
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
 #Projects .project-header {
   /* background-color: rgba(48, 123, 99, 0.264); */
   display: flex;
@@ -125,7 +129,8 @@ body::-webkit-scrollbar-thumb {
   align-items: center;
 }
 #Projects .project-header-info-upper {
-  height: 50%;
+  /* background-color: rgba(123, 82, 48, 0.264); */
+  height: 40%;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -135,11 +140,11 @@ body::-webkit-scrollbar-thumb {
 }
 #Projects .project-header-info-title {
   /* background-color: rgba(123, 48, 50, 0.264); */
-  font-size: 0.8em;
+  font-size: 1.2em;
 }
 #Projects .project-header-info-date {
   /* background-color: rgba(48, 123, 89, 0.264); */
-  font-size: 0.5em;
+  font-size: 0.8em;
 }
 #Projects .project-header-info-tech {
   /* background-color: rgba(123, 114, 48, 0.264); */
@@ -147,9 +152,21 @@ body::-webkit-scrollbar-thumb {
   height: 30%;
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: center;
   gap: 0.8em;
 }
+#Projects .project-header-info-links {
+  /* background-color: rgba(123, 114, 48, 0.264); */
+  display: flex;
+  width: 300px;
+  font-size: 18pt;
+}
+#Projects .project-header-info-link {
+  /* background-color: rgba(123, 48, 105, 0.264); */
+  width: 50%;
+  text-align: center;
+}
+
 #Projects .project-header-photo-frame {
   /* background-color: rgba(48, 85, 123, 0.264); */
   margin: 12px;
@@ -168,7 +185,6 @@ body::-webkit-scrollbar-thumb {
 
 #Projects .project-summary {
   font-size: 20pt;
-
   margin-top: 40px;
   margin-left: 120px;
   margin-right: 120px;
