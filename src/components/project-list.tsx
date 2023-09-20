@@ -16,7 +16,7 @@ export default function ProjectList() {
         <Project
           name='CinDay Computer Database'
           date='July 2023'
-          summary='Developed a full-stack React application using Next.js and Prisma to track student laptops and iPads, leveraging Redux state management, automated ORM, and the benefits of server-side rendering (SSR) for improved performance and user experience.'
+          summary='Full-stack React application using Next.js and Prisma to track student laptops and iPads, leveraging Redux state management, automated ORM, and the benefits of server-side rendering (SSR) for improved performance and user experience.'
           image='database'
           techArray={['next', 'react', 'prisma', 'redux']}
           demoUrl='https://computer-database.vercel.app/'
