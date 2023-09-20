@@ -112,27 +112,28 @@ body::-webkit-scrollbar-thumb {
 #Projects .project-frame {
   /* background-color: rgba(48, 123, 99, 0.264); */
   background-color: rgba(37, 37, 54, 0.245);
-  margin-left: 55px;
-  margin-right: 55px;
-  padding-left: 55px;
-  padding-right: 55px;
+  margin: 0 auto; /* Center the element horizontally */
+  width: 100%; /* Occupy the full width of the viewport */
+  padding: 10px;
+  padding-bottom: 55px;
+
 }
 
 #Projects .project {
   /* background-color: rgba(48, 48, 123, 0.264); */
-
   padding-top: 55px;
   padding-bottom: 55px;
 }
 
 #Projects .project-header {
-  /* background-color: rgba(48, 123, 99, 0.264); */
+  /* background-color: rgba(123, 104, 48, 0.354); */
   display: flex;
+  justify-content: center;
+  gap: 2em;
   width: 100%;
 }
 #Projects .project-header-info {
   /* background-color: rgba(82, 48, 123, 0.264); */
-  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -143,7 +144,7 @@ body::-webkit-scrollbar-thumb {
   height: 40%;
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
   text-align: center;
   gap: 0.4em;
   padding-bottom: 20px;
