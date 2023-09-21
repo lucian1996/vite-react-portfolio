@@ -38,7 +38,7 @@ export default function Project(data: ProjectProps) {
             </div>
             <div className="project-header-info-links">
               <div className="project-header-info-link">
-                <a href={data.demoUrl}>Demo</a>
+                {data.demoUrl && <a href={data.demoUrl}>Demo</a>}
               </div>
               <div className="project-header-info-link">
                 <a href={data.githubUrl}>Github</a>

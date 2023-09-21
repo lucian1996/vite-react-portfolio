@@ -18,6 +18,56 @@
   margin: 0 auto; /* Center the element horizontally */
   width: 100%; /* Occupy the full width of the viewport */
   padding: 10px;
-  padding-bottom: 55px;
   border-radius: 10px;
+}
+/* <div className="flex py-8 px-10"> */
+
+#History .job-header {
+  /* background-color: rgba(65, 136, 138, 0.48); */
+  display: flex;
+  justify-content: space-between;
+  /* margin-left: 3em;
+  margin-right: 6em; */
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+#History .job-header-info {
+  /* background-color: rgba(65, 138, 65, 0.48); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+#History .job-header-info-title {
+  /* background-color: rgba(67, 65, 138, 0.48); */
+  font-size: 1em;
+}
+#History .job-header-info-summary {
+  /* background-color: rgba(138, 129, 65, 0.48); */
+  font-size: 0.8em;
+}
+/* #History .job-header-image {} */
+
+#History .job-footer {
+  /* background-color: rgba(125, 65, 138, 0.48); */
+  display: flex;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+#History .job-footer-bullet-list {
+  /* background-color: rgba(94, 65, 138, 0.48); */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1em;
+  margin-right: 1em;
+  gap: 1em;
+}
+
+#History .job-footer-bullet {
+  /* background-color: rgba(138, 65, 65, 0.48); */
+  font-size: 20pt;
+
 }

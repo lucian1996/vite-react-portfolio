@@ -73,12 +73,13 @@
 #Projects .project-header-info-links {
   /* background-color: rgba(123, 114, 48, 0.264); */
   display: flex;
+  justify-content: center;
   width: 300px;
   font-size: 18pt;
 }
 #Projects .project-header-info-link {
   /* background-color: rgba(123, 48, 105, 0.264); */
-  width: 50%;
+  width: 70%;
   text-align: center;
 }
 
