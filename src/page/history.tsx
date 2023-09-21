@@ -2,6 +2,7 @@ import Fireflies from "../components/interface/fireflies";
 import Header from "../components/interface/header";
 import '../utility/style/page/history.css'
 import { motion } from "framer-motion";
+
 export default function About() {
   return (
     <div id="History" className="layout">

@@ -3,6 +3,7 @@ import Header from "../components/interface/header";
 import { motion } from "framer-motion";
 import GetIsMobile from "../utility/function/get-is-mobile";
 import '../utility/style/page/home.css'
+
 export default function Home() {
   const isMobile = GetIsMobile()
   return (

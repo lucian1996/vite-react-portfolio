@@ -3,6 +3,7 @@ import Header from "../components/interface/header";
 import ProjectList from "../components/project-list";
 import '../utility/style/page/projects.css'
 import { motion } from "framer-motion";
+
 export default function About() {
   return (
     <div id="Projects" className="layout ">
