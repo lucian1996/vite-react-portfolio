@@ -3,7 +3,7 @@ import Header from "../components/interface/header";
 import { motion } from "framer-motion";
 import '../utility/style/page/about.css'
 
-export default function Contact() {
+export default function About() {
   return (
     <div className="layout">
       <Header />

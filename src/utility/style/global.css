@@ -70,3 +70,12 @@ body::-webkit-scrollbar-thumb {
   align-items: center;
   justify-content: center;
 }
+.frame {
+  /* background-color: rgba(48, 123, 99, 0.264); */
+  background-color: rgba(37, 37, 54, 0.245);
+  margin: 0 auto; /* Center the element horizontally */
+  width: 100%; /* Occupy the full width of the viewport */
+  padding: 10px;
+  padding-bottom: 55px;
+  border-radius: 10px;
+}

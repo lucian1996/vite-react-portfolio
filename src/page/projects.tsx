@@ -4,7 +4,7 @@ import ProjectList from "../components/project-list";
 import '../utility/style/page/projects.css'
 import { motion } from "framer-motion";
 
-export default function About() {
+export default function Projects() {
   return (
     <div id="Projects" className="layout ">
       <Header />
@@ -15,7 +15,9 @@ export default function About() {
         transition={{ duration: 0.5 }}
         className="main"
       >
-        <ProjectList />
+        <div className="frame">
+          <ProjectList />
+        </div>
       </motion.div>
       <Fireflies />
     </div>
