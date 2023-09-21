@@ -1,7 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
 import PageProps from '../../utility/types/page-props';
-import { routes } from '../../utility/config/routes';
-import GetIsMobile from '../utility/get-is-mobile';
+import { routes } from '../../utility/routes';
+import GetIsMobile from '../../utility/function/get-is-mobile';
 
 export default function Header() {
   const isMobile = GetIsMobile()

@@ -1,9 +1,9 @@
 import { createBrowserRouter } from "react-router-dom";
-import Home from "../../pages/home";
-import About from "../../pages/about";
-import Contact from "../../pages/contact";
-import Projects from "../../pages/projects";
-import History from "../../pages/history";
+import Home from "../page/home";
+import About from "../page/about";
+import Contact from "../page/contact";
+import Projects from "../page/projects";
+import History from "../page/history";
 
 export const routes = [
   { title: "About" },
