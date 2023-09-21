@@ -33,7 +33,7 @@ export default function Job(data: JobProps) {
         <ul className="job-footer-bullet-list">
           {data.bulletArray.map((bullet, index) => (
             <li className="job-footer-bullet" key={index}>
-              {bullet}
+              - {bullet}
             </li>
           ))}
         </ul>

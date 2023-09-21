@@ -19,6 +19,7 @@
   width: 100%; /* Occupy the full width of the viewport */
   padding: 10px;
   border-radius: 10px;
+  padding-bottom: 64px;
 }
 /* <div className="flex py-8 px-10"> */
 
@@ -46,7 +47,15 @@
   /* background-color: rgba(138, 129, 65, 0.48); */
   font-size: 0.8em;
 }
-/* #History .job-header-image {} */
+#History .job-header-image {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+#History .job-header-image {
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.577); /* Adjust the color and opacity as needed */
+  z-index: 1; /* Make sure it's above the image */
+}
+
 
 #History .job-footer {
   /* background-color: rgba(125, 65, 138, 0.48); */
