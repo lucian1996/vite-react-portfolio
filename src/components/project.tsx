@@ -38,10 +38,10 @@ export default function Project(data: ProjectProps) {
             </div>
             <div className="project-header-info-links">
               <div className="project-header-info-link">
-                {data.demoUrl && <a href={data.demoUrl}>Demo</a>}
+                {data.demoUrl && <a href={data.demoUrl} target="_blank">Demo</a>}
               </div>
               <div className="project-header-info-link">
-                <a href={data.githubUrl}>Github</a>
+                <a href={data.githubUrl} target="_blank">Github</a>
               </div>
             </div>
           </div>
@@ -63,10 +63,10 @@ export default function Project(data: ProjectProps) {
             </div>
             <div className="project-header-info-links">
               <div className="project-header-info-link">
-                <a href={data.githubUrl}>Github</a>
+                <a href={data.githubUrl} target="_blank">Github</a>
               </div>
               <div className="project-header-info-link">
-                <a href={data.demoUrl}>Demo</a>
+                <a href={data.demoUrl} target="_blank">Demo</a>
               </div>
             </div>
           </div>

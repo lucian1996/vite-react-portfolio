@@ -31,7 +31,7 @@ export default function ContactPage() {
         transition={{ duration: 0.5 }}
         className="main"
       >
-        <div id="Contact">
+        <div id="Contact" className="layout">
           <div className="frame">
             <ContactCard />
             <form ref={form} autoComplete='false' onSubmit={sendEmail}>

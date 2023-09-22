@@ -14,9 +14,8 @@
 
 #Contact .frame {
   background-color: rgba(37, 37, 54, 0.245);
-  margin: 0 auto; 
-  width: 100%; 
-  height: 100%;
+  margin: 0 auto;
+  width: 100%;
   padding: 10px;
   border-radius: 10px;
   display: flex;
@@ -24,12 +23,14 @@
 }
 
 #Contact form {
-  margin: 0 auto; 
+  margin: 0 auto;
   height: 100%;
   padding: 10px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
+  padding-top: 32px ;
+  padding-bottom: 64px ;
 }
 
 label {
@@ -63,3 +64,52 @@ textarea:focus {
   padding: 50px;
 }
 
+#Contact .contact-card {
+  /* background-color: rgba(95, 158, 160, 0.346); */
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding-bottom: 60px; */
+}
+#Contact .contact-card-header {
+  /* background-color: rgba(160, 134, 95, 0.346); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* #Contact .contact-card-image-frame {} */
+/* #Contact .contact-card-image {} */
+#Contact .contact-card-header-info {
+  /* background-color: rgba(105, 160, 95, 0.346); */
+  width: 75%;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+#Contact .contact-card-header-info-name {
+  /* background-color: rgba(160, 95, 95, 0.346); */
+  font-size: 26pt;
+}
+#Contact .contact-card-header-info-title {
+  /* background-color: rgba(160, 158, 95, 0.346); */
+  font-size: 20pt;
+}
+#Contact .contact-card-footer {
+  /* background-color: rgba(160, 158, 95, 0.346); */
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 90px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
