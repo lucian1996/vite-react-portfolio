@@ -1,0 +1,77 @@
+#Experience {
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 1080px) {
+  #Experience {
+    min-width: 1000px;
+    max-width: 1400px;
+  }
+}
+
+#Experience .frame {
+  /* background-color: rgba(48, 123, 99, 0.264); */
+  background-color: rgba(37, 37, 54, 0.245);
+  margin: 0 auto; /* Center the element horizontally */
+  width: 100%; /* Occupy the full width of the viewport */
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#Experience .header-title {
+  /* background-color: rgb(95, 160, 99); */
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  font-weight: 400;
+  font-size: 38pt;
+}
+#Experience .header-images {
+  /* background-color: rgba(102, 102, 102, 0.213); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow-x: hidden;
+}
+#Experience .header-image-container {
+  /* background-color: rgba(132, 20, 20, 0.213); */
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+#Experience .header-image {
+  min-width: 600px; /* Ensure images don't exceed the container's width */
+  max-width: 600px; /* Ensure images don't exceed the container's width */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+#Experience .footer {
+  /* background-color: rgba(102, 102, 102, 0.213); */
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+#Experience .footer-summary {
+  padding: 2em;
+}
+
+#Experience .footer-title {
+  text-align: center;
+  font-weight: 400;
+  font-size: 26pt;
+}
+#Experience .footer-duration {
+  text-align: center;
+}
+/* #Experience .footer-summary {} */
+
+#Experience .footer-bullet {
+  font-size: 24pt;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 6em;
+  padding-right: 6em;
+}

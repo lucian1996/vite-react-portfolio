@@ -1,12 +1,11 @@
 import Fireflies from "../components/interface/fireflies";
 import Header from "../components/interface/header";
-import ProjectList from "../components/project-list";
-import '../utility/style/page/projects.css'
 import { motion } from "framer-motion";
+import '../utility/style/page/contact.css'
 
-export default function Projects() {
+export default function ContactPage() {
   return (
-    <div id="Projects" className="layout ">
+    <div className="layout">
       <Header />
       <motion.div
         initial={{ opacity: 0 }}
@@ -15,11 +14,10 @@ export default function Projects() {
         transition={{ duration: 0.5 }}
         className="main"
       >
-        <div className="frame">
-          <ProjectList />
-        </div>
-      </motion.div>
+        Contact
+      </motion.div >
       <Fireflies />
+
     </div>
   );
 }

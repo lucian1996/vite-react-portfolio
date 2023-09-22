@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './utility/style/global.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Home from './page/home.tsx';
-import About from './page/about.tsx';
-import Contact from './page/contact.tsx';
-import History from './page/history.tsx';
-import Projects from './page/projects.tsx';
+import Home from './page/home-page.tsx';
+import About from './page/about-page.tsx';
+import Contact from './page/contact-page.tsx';
+import Projects from './page/projects-page.tsx';
+import Experience from './page/experience-page.tsx';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
@@ -15,7 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
-        <Route path="/history" element={<History />} />
+        <Route path="/experience" element={<Experience />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>

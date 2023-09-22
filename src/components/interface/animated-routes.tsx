@@ -1,10 +1,10 @@
 import { Routes, Route } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
-import Projects from "../../page/projects";
-import History from "../../page/history";
-import About from "../../page/about";
-import Home from "../../page/home";
-import Contact from "../../page/contact";
+import Projects from "../../page/projects-page";
+import History from "../../page/experience-page";
+import About from "../../page/about-page";
+import Home from "../../page/home-page";
+import Contact from "../../page/contact-page";
 function AnimatedRoutes() {
   // const location = useLocation();
   return (

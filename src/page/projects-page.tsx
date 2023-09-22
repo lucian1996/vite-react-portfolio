@@ -1,11 +1,13 @@
 import Fireflies from "../components/interface/fireflies";
 import Header from "../components/interface/header";
+import '../utility/style/page/projects.css'
 import { motion } from "framer-motion";
-import '../utility/style/page/about.css'
+import projectData from '../content/project-data';
+import Project from "../components/project";
 
-export default function About() {
+export default function ProjectsPage() {
   return (
-    <div className="layout">
+    <div id="Projects" className="layout ">
       <Header />
       <motion.div
         initial={{ opacity: 0 }}
@@ -14,8 +16,12 @@ export default function About() {
         transition={{ duration: 0.5 }}
         className="main"
       >
-        About
-      </motion.div >
+        <div className="frame">
+          {projectData.map((project, index) => (
+            <Project key={index} {...project} />
+          ))}
+        </div>
+      </motion.div>
       <Fireflies />
     </div>
   );

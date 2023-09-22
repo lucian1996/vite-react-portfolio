@@ -1,12 +1,11 @@
 import Fireflies from "../components/interface/fireflies";
 import Header from "../components/interface/header";
-import JobList from "../components/job-list";
-import '../utility/style/page/history.css'
 import { motion } from "framer-motion";
+import '../utility/style/page/about.css'
 
-export default function History() {
+export default function AboutPage() {
   return (
-    <div id="History" className="layout">
+    <div className="layout">
       <Header />
       <motion.div
         initial={{ opacity: 0 }}
@@ -15,10 +14,8 @@ export default function History() {
         transition={{ duration: 0.5 }}
         className="main"
       >
-        <div className="frame">
-          <JobList />
-        </div>
-      </motion.div>
+        About
+      </motion.div >
       <Fireflies />
     </div>
   );
