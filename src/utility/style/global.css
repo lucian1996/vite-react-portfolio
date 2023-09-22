@@ -79,3 +79,13 @@ body::-webkit-scrollbar-thumb {
   padding-bottom: 55px;
   border-radius: 10px;
 }
+
+::selection {
+  background-color: #5768a5; 
+  color: #000000; 
+}
+
+::-moz-selection {
+  background-color: #5768a5; 
+  color: #000000; 
+}

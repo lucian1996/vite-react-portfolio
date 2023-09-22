@@ -15,8 +15,8 @@
 #Experience .frame {
   /* background-color: rgba(48, 123, 99, 0.264); */
   background-color: rgba(37, 37, 54, 0.245);
-  margin: 0 auto; /* Center the element horizontally */
-  width: 100%; /* Occupy the full width of the viewport */
+  margin: 0 auto;
+  width: 100%; 
   padding: 10px;
   border-radius: 10px;
 }
