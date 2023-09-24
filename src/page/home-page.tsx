@@ -15,7 +15,7 @@ export default function HomePage() {
       transition={{ duration: 0.5 }}
     >
       <div id={isMobile ? 'mobile-homepage' : 'homepage'}>
-        <div className="title">Lucian</div>
+        <div className={isMobile ? 'title font-normal' : 'title '}>Lucian</div>
         <Header />
         <Fireflies />
       </div>

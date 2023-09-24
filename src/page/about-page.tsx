@@ -14,7 +14,9 @@ export default function AboutPage() {
         transition={{ duration: 0.5 }}
         className="main"
       >
-        About
+        <div id="About" className="frame">
+          About
+        </div>
       </motion.div >
       <Fireflies />
     </div>

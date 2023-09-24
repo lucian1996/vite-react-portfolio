@@ -1,3 +1,5 @@
+import GetIsMobile from "../utility/function/get-is-mobile";
+
 interface JobProps {
   company: string;
   duration: string;
@@ -12,10 +14,11 @@ export default function Experience(data: JobProps) {
   const durationParts = data.duration.split(" - ");
   const startDate = durationParts[0];
   const endDate = durationParts[1] === "Current" ? "Present" : durationParts[1];
+  const isMobile = GetIsMobile()
 
   const DurationFormat = () => {
     return (
-      <div className="flex  justify-center ">
+      <div className="flex justify-center ">
         <div className=" w-1/2 text-right mx-6">{startDate}</div>
         <div>-</div>
         <div className=" w-1/2 text-left mx-6">{endDate}</div>
@@ -24,9 +27,9 @@ export default function Experience(data: JobProps) {
   };
 
   return (
-    <div className="frame">
+    <div className={isMobile ? 'flex flex-col justify-center bg-primary ' : 'frame'}>
       <div className="header">
-        <div className="header-title">{data.company}</div>
+        <div className={isMobile ? 'text-5xl text-center py-10 font-normal' : 'header-title'}>{data.company}</div>
         <div className="header-images">
           <div className="header-image-container">
             <img
@@ -46,10 +49,10 @@ export default function Experience(data: JobProps) {
       </div>
       <div className="footer">
         <div className="footer-title ">{data.role}</div>
-        <div className="footer-duration">{DurationFormat()}</div>
-        <div className="footer-summary">{data.summary}</div>
+        <div className="footer-duration ">{DurationFormat()}</div>
+        <div className={isMobile ? 'p-8' : 'footer-summary'}>{data.summary}</div>
         {data.bulletArray.map((bullet, index) => (
-          <li className="footer-bullet" key={index}>
+          <li className={isMobile ? 'px-16 py-2' : 'footer-bullet'} key={index}>
             {bullet}
           </li>
         ))}

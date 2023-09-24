@@ -11,3 +11,13 @@
     max-width: 1400px;
   }
 }
+
+#About .frame {
+  background-color: rgba(37, 37, 54, 0.245);
+  margin: 0 auto;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
