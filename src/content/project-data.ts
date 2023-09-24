@@ -6,7 +6,7 @@ const projectData = [
       'Modern and lightweight portfolio designed to demonstrate an adept understanding of modern CSS alongside contemporary JavaScript libraries such as Framer Motion',
     image: 'portfolio',
     techArray: ['vite', 'react'],
-    demoUrl: 'https://lucian-portfolio.vercel.app',
+    demoUrl: 'https://lucian.bio/',
     githubUrl: 'https://github.com/lucian1996/vite-react-portfolio',
     textLeft: true,
   },
