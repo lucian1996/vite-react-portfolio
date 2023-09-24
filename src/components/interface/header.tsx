@@ -9,7 +9,7 @@ export default function Header() {
   const homepage = location.pathname === '/';
   if (isMobile && !homepage) {
     return (
-      <div className="nav sticky top-0 w-full bg-black">
+      <div className="nav sticky top-0 w-full bg-black z-20">
         <Link to='/'>
           Home
         </Link>

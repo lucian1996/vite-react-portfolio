@@ -29,7 +29,7 @@
   /* background-color: darkblue; */
   display: flex;
   justify-content: space-evenly;
-  width: 900px; /* Change to 100% if you want it to span the entire width */
+  width: 1100px; /* Change to 100% if you want it to span the entire width */
   margin-left: auto;
   margin-right: auto;
 }
@@ -37,13 +37,14 @@
 #About .header-left {
   /* background-color: rgb(52, 52, 67); */
 
-  width: 725px;
+  width: 500px;
 }
 
 #About .header-left-title {
   text-align: center;
   padding-top: 44px;
   padding-bottom: 44px;
+  font-weight: 499;
 }
 
 #About .header-left-info {
