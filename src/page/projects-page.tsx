@@ -1,11 +1,13 @@
 import Fireflies from "../components/interface/fireflies";
 import Header from "../components/interface/header";
-import '../utility/style/page/projects.css'
+import '../style/page/projects.css'
 import { motion } from "framer-motion";
 import projectData from '../content/project-data';
 import Project from "../components/project";
+import GetIsMobile from "../utility/function/get-is-mobile";
 
 export default function ProjectsPage() {
+  const isMobile = GetIsMobile()
   return (
     <div id="Projects" className="layout ">
       <Header />
@@ -16,7 +18,7 @@ export default function ProjectsPage() {
         transition={{ duration: 0.5 }}
         className="main"
       >
-        <div className="frame">
+        <div className={isMobile ? 'bg-primary' : 'frame'}>
           {projectData.map((project, index) => (
             <Project key={index} {...project} />
           ))}

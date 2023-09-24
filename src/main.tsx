@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './utility/style/global.css';
+import './style/global.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './page/home-page.tsx';
 import About from './page/about-page.tsx';

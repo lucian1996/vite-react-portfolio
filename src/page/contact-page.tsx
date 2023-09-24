@@ -1,7 +1,7 @@
 import Fireflies from "../components/interface/fireflies";
 import Header from "../components/interface/header";
 import { motion } from "framer-motion";
-import '../utility/style/page/contact.css'
+import '../style/page/contact.css'
 import ContactCard from "../components/contact-card";
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';

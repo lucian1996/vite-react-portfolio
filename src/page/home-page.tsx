@@ -2,7 +2,7 @@ import Fireflies from "../components/interface/fireflies";
 import Header from "../components/interface/header";
 import { motion } from "framer-motion";
 import GetIsMobile from "../utility/function/get-is-mobile";
-import '../utility/style/page/home.css'
+import '../style/page/home.css'
 
 export default function HomePage() {
   const isMobile = GetIsMobile()

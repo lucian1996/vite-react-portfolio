@@ -1,4 +1,4 @@
-import '../../utility/style/background.scss'
+import '../../style/background.scss'
 export default function Fireflies() {
   const fireflies = Array.from({ length: 15 }, (_, index) => (
     <div key={index} className="firefly"></div>

@@ -2,7 +2,7 @@ import Fireflies from "../components/interface/fireflies";
 import Header from "../components/interface/header";
 import experienceData from "../content/experience-data";
 import { motion } from "framer-motion";
-import '../utility/style/page/experience.css'
+import '../style/page/experience.css'
 import Experience from "../components/experience";
 
 export default function ExperiencePage() {

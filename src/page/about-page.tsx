@@ -1,7 +1,7 @@
 import Fireflies from "../components/interface/fireflies";
 import Header from "../components/interface/header";
 import { motion } from "framer-motion";
-import '../utility/style/page/about.css'
+import '../style/page/about.css'
 
 export default function AboutPage() {
   return (
