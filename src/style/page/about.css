@@ -5,6 +5,7 @@
   display: flex;
   flex-direction: column;
 }
+
 @media screen and (min-width: 1080px) {
   #About {
     min-width: 1000px;
@@ -20,4 +21,79 @@
   border-radius: 10px;
   display: flex;
   flex-direction: column;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#About .header {
+  /* background-color: darkblue; */
+  display: flex;
+  justify-content: space-evenly;
+  width: 900px; /* Change to 100% if you want it to span the entire width */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#About .header-left {
+  /* background-color: rgb(52, 52, 67); */
+
+  width: 725px;
+}
+
+#About .header-left-title {
+  text-align: center;
+  padding-top: 44px;
+  padding-bottom: 44px;
+}
+
+#About .header-left-info {
+  width: 600px;
+  margin: auto;
+  gap: 20px; /* Adjust the gap as needed */
+}
+
+
+#About .header-right,
+#About .image-container {
+  position: relative;
+}
+
+#About .summary {
+  width: 100%; /* Change to 100% to make it span the entire width */
+  max-width: 1200px; /* Add a maximum width to limit the content */
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  overflow: auto; /* Add overflow property to contain the content */
+}
+
+#About .skills-title {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-weight: 400;
+}
+
+#About .skills {
+  width: 100%; /* Change to 100% if you want it to span the entire width */
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap; /* Add this to enable wrapping */
+  justify-content: center; /* Add this to evenly distribute skills */
+}
+
+#About .skills ul {
+  list-style: none; /* Remove default list bullet points */
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#About .skills li {
+  flex-basis: calc(
+    33.33% - 20px
+  ); /* Adjust the width as needed, accounting for margins */
+  margin: 10px; /* Add some margin between skills */
 }

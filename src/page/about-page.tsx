@@ -1,7 +1,8 @@
-import Fireflies from "../components/interface/fireflies";
-import Header from "../components/interface/header";
-import { motion } from "framer-motion";
-import '../style/page/about.css'
+import Fireflies from '../components/interface/fireflies';
+import Header from '../components/interface/header';
+import { motion } from 'framer-motion';
+import '../style/page/about.css';
+import About from '../components/about';
 
 export default function AboutPage() {
   return (
@@ -14,10 +15,10 @@ export default function AboutPage() {
         transition={{ duration: 0.5 }}
         className="main"
       >
-        <div id="About" className="frame">
-          About
+        <div id="About" className="layout">
+          <About />
         </div>
-      </motion.div >
+      </motion.div>
       <Fireflies />
     </div>
   );

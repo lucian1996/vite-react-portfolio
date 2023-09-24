@@ -10,7 +10,7 @@ export default function ContactCard() {
         </div>
         <div className="contact-card-header-info">
           <div className="contact-card-header-info-name">Luke Anthony</div>
-          <div className="contact-card-header-info-title">Tech Associate</div>
+          <div className="contact-card-header-info-title">Web Developer</div>
         </div>
       </div>
       <div className="contact-card-footer">
