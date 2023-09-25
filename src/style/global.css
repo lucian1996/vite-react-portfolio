@@ -68,6 +68,7 @@ body::-webkit-scrollbar-thumb {
   align-items: center;
   justify-content: center;
   font-size: 14pt;
+  position: fixed;
 }
 .frame {
   /* background-color: rgba(48, 123, 99, 0.264); */
