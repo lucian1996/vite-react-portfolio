@@ -19,7 +19,7 @@ export default function About() {
         </div>
         <div className="header-right">
           <div className="image-container">
-            <img src="/lucian-selfie.jpg" alt="lucain" width={300} />
+            <img src="/lucian-selfie.jpg" alt="lucain" className="image" />
             <div className="image-overlay"></div>
           </div>
         </div>

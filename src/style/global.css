@@ -13,7 +13,6 @@
   }
 }
 body {
-  font-size: 2em;
   color: rgb(var(--foreground));
   background: rgb(var(--background));
   font-weight: 100;
@@ -49,7 +48,6 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .main {
@@ -61,7 +59,7 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 6rem;
+  font-size: 4rdvw;
 }
 .nav {
   padding: 1em;
@@ -69,23 +67,25 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 14pt;
 }
 .frame {
   /* background-color: rgba(48, 123, 99, 0.264); */
   background-color: rgba(37, 37, 54, 0.245);
-  margin: 0 auto; /* Center the element horizontally */
-  width: 100%; /* Occupy the full width of the viewport */
-  padding: 10px;
+  margin: 0 auto;
+  min-width: 400px;
+  max-width: 800px;
+  padding-top: 25px;
   padding-bottom: 55px;
   border-radius: 10px;
 }
 
 ::selection {
-  background-color: #5768a5; 
-  color: #000000; 
+  background-color: #5768a5;
+  color: #000000;
 }
 
 ::-moz-selection {
-  background-color: #5768a5; 
-  color: #000000; 
+  background-color: #5768a5;
+  color: #000000;
 }

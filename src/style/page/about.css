@@ -13,59 +13,53 @@
   }
 }
 
-#About .frame {
-  background-color: rgba(37, 37, 54, 0.245);
-  margin: 0 auto;
-  width: 100%;
+/* #About .frame { */
+  /* background-color: rgba(15, 15, 174, 0.245); */
+  /* margin: 0 auto;
+  min-width: 400px;
+  max-width: 900px;
+  padding-bottom: 36px;
   padding: 10px;
   border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  padding-top: 40px;
-  padding-bottom: 80px;
-}
+} */
 
 #About .header {
   /* background-color: darkblue; */
   display: flex;
   justify-content: space-evenly;
-  width: 1100px; /* Change to 100% if you want it to span the entire width */
-  margin-left: auto;
-  margin-right: auto;
 }
 
 #About .header-left {
   /* background-color: rgb(52, 52, 67); */
-
-  width: 500px;
+  /* width: 500px; */
 }
 
 #About .header-left-title {
   text-align: center;
   padding-top: 44px;
-  padding-bottom: 44px;
+  padding-bottom: 22px;
   font-weight: 499;
 }
 
-#About .header-left-info {
-  width: 600px;
-  margin: auto;
-  gap: 20px; /* Adjust the gap as needed */
-}
-
+/* #About .header-left-info {} */
 
 #About .header-right,
 #About .image-container {
+  /* background-color: darkblue; */
   position: relative;
+  width: 200px;
+}
+
+#About .image {
 }
 
 #About .summary {
-  width: 100%; /* Change to 100% to make it span the entire width */
-  max-width: 1200px; /* Add a maximum width to limit the content */
+  min-width: 300px;
+  max-width: 700px;
   margin: auto;
-  padding-top: 50px;
-  padding-bottom: 20px;
-  overflow: auto; /* Add overflow property to contain the content */
+  padding-left: 52px;
+  padding-right: 52px;
+  padding-top: 21px;
 }
 
 #About .skills-title {
@@ -75,7 +69,8 @@
 }
 
 #About .skills {
-  width: 100%; /* Change to 100% if you want it to span the entire width */
+  min-width: 400px;
+  max-width: 500px;
   margin: auto;
   text-align: center;
   display: flex;

@@ -10,7 +10,7 @@
   flex-direction: column;
   justify-content: center;
 }
-#mobile-homepage .title {
+#homepage .title {
   display: flex;
   justify-content: center;
   align-items: center;

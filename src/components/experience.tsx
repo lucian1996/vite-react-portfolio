@@ -27,9 +27,9 @@ export default function Experience(data: JobProps) {
   };
 
   return (
-    <div className={isMobile ? 'flex flex-col justify-center bg-primary ' : 'frame'}>
+    <div className={isMobile ? '' : 'job'}>
       <div className="header">
-        <div className={isMobile ? 'text-5xl text-center py-10 font-normal' : 'header-title'}>{data.company}</div>
+        <div className='header-title'>{data.company}</div>
         <div className="header-images">
           <div className="header-image-container">
             <img
