@@ -41,7 +41,8 @@ label {
 
 input,
 textarea {
-  width: 600px;
+  min-width: 400px;
+  max-width: 600px;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 20px;
@@ -66,10 +67,8 @@ textarea:focus {
 
 #Contact .contact-card {
   /* background-color: rgba(95, 158, 160, 0.346); */
-  width: 800px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 120px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -104,7 +103,6 @@ textarea:focus {
 }
 #Contact .contact-card-footer {
   /* background-color: rgba(160, 158, 95, 0.346); */
-  width: 450px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 90px;
@@ -112,4 +110,5 @@ textarea:focus {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 20pt;
 }

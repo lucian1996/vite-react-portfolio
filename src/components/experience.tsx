@@ -29,7 +29,7 @@ export default function Experience(data: JobProps) {
   return (
     <div className={isMobile ? '' : 'job'}>
       <div className="header">
-        <div className='header-title'>{data.company}</div>
+        <div className='header-title'>{data.role}</div>
         <div className="header-images">
           <div className="header-image-container">
             <img
@@ -48,7 +48,7 @@ export default function Experience(data: JobProps) {
         </div>
       </div>
       <div className="footer">
-        <div className="footer-title ">{data.role}</div>
+        <div className="footer-title ">{data.company}</div>
         <div className="footer-duration ">{DurationFormat()}</div>
         <div className={isMobile ? 'p-8' : 'footer-summary'}>{data.summary}</div>
         {data.bulletArray.map((bullet, index) => (

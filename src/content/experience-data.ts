@@ -4,7 +4,7 @@ const experienceData = [
     duration: 'February 2023 - Present 2023',
     image: 'cinday',
     role: 'IT Assistant',
-    summary: 'As an IT Assistant at CinDay Academy, I maintain IT infrastructure, address hardware/software concerns, and enhance security. I conduct quality control testing and offer process improvement recommendations.',
+    summary: 'Collaborated with administration to strategize technology usage, optimize information systems, and enhance support for students and faculty. Responsibilities included IT infrastructure maintenance, hardware/software troubleshooting, and system-wide security oversight.',
     bulletArray: [
       'Collaborating to maintain IT infrastructure while addressing hardware and software concerns and ensuring system wide security.',
       'Conducting quality control testing and provided recommendations for enhancing IT-related processes and procedures.'
@@ -15,9 +15,9 @@ const experienceData = [
     duration: 'September 2022 - Devember 2022',
     image: 'tech-elevator',
     role: 'Student',
-    summary: 'Recent graduate of a 14-week full-stack coding bootcamp learning how to create dynamic web-based software systems using Java providing 800+ hours of development education and application.',
+    summary: "My experience at Tech Elevator's Full-Time Coding Bootcamp was both intense and rewarding, taking me from a novice programmer to a skilled web developer in just a few short months. Throughout the program, I became accustomed to paired programming, Agile methodology, and version source control strategies which prepared me well for an introduction to the tech industry.",
     bulletArray: [
-      'Acquired proficiency in full-stack web development with a strong focus on Java programming, gaining expertise in building dynamic web applications.',
+      'Acquired proficiency in full-stack web development stratagies and technologies including Java, HTML, CSS, modern JavaScript frameworks and SQL.',
       'Successfully completed a rigorous 14-week coding bootcamp, accumulating over 800 hours of hands-on development education and practical experience.'
     ],
   },
@@ -26,7 +26,7 @@ const experienceData = [
     duration: 'September 2019 - August 2020',
     image: 'citizens',
     role: 'Commissary Assistant',
-    summary: 'As a Commissary Assistant at Citizens, I executed menu prep and managed daily meal deliveries, optimizing inventory for multiple Manhattan storefronts.',
+    summary: 'During my role at Citizens I worked closely with a small team to stock and maintain regular supply for five restauraunt storefront locations. This position entailed daily execution of large-scale recipes and efficient management of invoices and orders across multiple locations.',
     bulletArray: [
       'Executed large scale recipe instructions for an extensive seasonal breakfast and lunch menu.',
       'Daily meal prep delivery through Uber to update and organize five individual storefront inventories based in Manhattan.'
@@ -37,7 +37,7 @@ const experienceData = [
     duration: 'January 2017 - August 2019',
     image: 'habanero',
     role: 'Line Cook',
-    summary: 'At Habanero, I provided excellent customer service as a Line Cook. Maintained a clean and efficient kitchen, ensuring consistently high-quality food.',
+    summary: 'While at Habanero, I consistently delivered excellent customer service, maintained a clean and efficient workstation, and ensuring a high-quality dining experience.',
     bulletArray: [
       'Provided customer service on a team based culinary line.',
       'Regularly maintained a clean and organized working environment.'
@@ -48,7 +48,7 @@ const experienceData = [
     duration: 'February 2016 - December 2016',
     image: 'kaze',
     role: 'Sushi Assistant',
-    summary: 'As a Sushi Assistant at Kaze OTR, I perfected sushi presentation and managed inventory, delivering top-notch sushi dishes with seasonal ingredients.',
+    summary: "During my role as a Sushi Assistant at Kaze in Over the Rhine, I focused on perfecting sushi presentation while also contributing to inventory and supply management. This allowed me to consistently deliver top-notch sushi dishes featuring seasonal ingredients.",
     bulletArray: [
       "Continually refined meal presentation according to customer's request.",
       'Managed inventory and stock according to seasonal supply.'
@@ -59,7 +59,7 @@ const experienceData = [
     duration: 'January 2013 - December 2015',
     image: 'rookwood',
     role: 'Inventory Manager',
-    summary: 'As an Inventory Manager, I oversaw an 80,000+ item Excel inventory, collaborating with other managers to optimize ceramic product flow for production and commission projects.',
+    summary: 'Began as an intern and progressed to managing an inventory of over 80,000 pre-fired art/pottery and installation ceramic products. Responsible for physically and digitally managing product exchange between departments and administration, serving various in-house and external clients, including projects like the Taft Ale House in Cincinnati and the restoration of the Chicago Monroe Building.',
     bulletArray: [
       "Independently managed an Excel Inventory of 80,000+ individual, pre-fired art/pottery and installation tile.",
       'Collaborated with other managers to optimize the exchange of ceramic product in relevance to production and commission.'
