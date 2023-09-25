@@ -12,7 +12,7 @@ export default function ContactCard() {
       <div className="contact-card-header">
         <div className="contact-card-image-frame">
           <div className="contact-card-image">
-            <img src="/lucian.png" alt="lucian" width={200} />
+            <img src="/lucian.png" alt="lucian" width={isMobile ? 100 : 200} />
           </div>
         </div>
         <div className="contact-card-header-info">

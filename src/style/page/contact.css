@@ -41,7 +41,7 @@ label {
 
 input,
 textarea {
-  min-width: 400px;
+  min-width: 300px;
   max-width: 600px;
   padding-top: 15px;
   padding-bottom: 15px;
