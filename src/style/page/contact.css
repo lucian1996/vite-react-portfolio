@@ -24,13 +24,14 @@
 
 #Contact form {
   margin: 0 auto;
+  width: 75%;
   height: 100%;
   padding: 10px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  padding-top: 32px ;
-  padding-bottom: 64px ;
+  padding-top: 32px;
+  padding-bottom: 64px;
 }
 
 label {
@@ -41,8 +42,6 @@ label {
 
 input,
 textarea {
-  min-width: 300px;
-  max-width: 600px;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 20px;

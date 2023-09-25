@@ -34,19 +34,31 @@ export default function ContactPage() {
         <div id="Contact" className="layout">
           <div className="frame">
             <ContactCard />
-            <form ref={form} autoComplete='false' onSubmit={sendEmail}>
+            <form
+              ref={form}
+              autoComplete="false"
+              onSubmit={sendEmail}
+              
+            >
               <label>name</label>
               <input type="text" name="user_name" />
               <label>email</label>
               <input type="email" name="user_email" />
               <label>message</label>
               <textarea name="message" />
-              <input type="submit" value="Send" onClick={() => { console.log('clicked') }} className='button' />
+              <input
+                type="submit"
+                value="Send"
+                onClick={() => {
+                  console.log('clicked');
+                }}
+                className="button"
+              />
             </form>
           </div>
         </div>
-      </motion.div >
+      </motion.div>
       <Fireflies />
     </div>
-  )
+  );
 }
