@@ -44,7 +44,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .layout {
-  height: 100dvh;
+  height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -73,11 +73,12 @@ body::-webkit-scrollbar-thumb {
   /* background-color: rgba(48, 123, 99, 0.264); */
   background-color: rgba(37, 37, 54, 0.245);
   margin: 0 auto;
-  min-width: 400px;
+  min-width: 200px;
   max-width: 800px;
   padding-top: 25px;
   padding-bottom: 55px;
   border-radius: 10px;
+  height: 100%;
 }
 
 ::selection {

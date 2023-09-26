@@ -6,7 +6,7 @@ import About from '../components/about';
 
 export default function AboutPage() {
   return (
-    <div className="layout">
+    <div id="About" className="layout">
       <Header />
       <motion.div
         initial={{ opacity: 0 }}
@@ -15,9 +15,7 @@ export default function AboutPage() {
         transition={{ duration: 0.5 }}
         className="main"
       >
-        <div id="About" className="layout">
-          <About />
-        </div>
+        <About />
       </motion.div>
       <Fireflies />
     </div>
