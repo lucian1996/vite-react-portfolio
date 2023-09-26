@@ -19,7 +19,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Route path="/experience" element={<Experience />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Analytics />
     </BrowserRouter>
-    <Analytics />
   </React.StrictMode>
 );
