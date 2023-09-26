@@ -7,6 +7,7 @@ import About from './page/about-page.tsx';
 import Contact from './page/contact-page.tsx';
 import Projects from './page/projects-page.tsx';
 import Experience from './page/experience-page.tsx';
+import { Analytics } from '@vercel/analytics/react';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
@@ -19,5 +20,6 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
-  </React.StrictMode>,
+    <Analytics />
+  </React.StrictMode>
 );
