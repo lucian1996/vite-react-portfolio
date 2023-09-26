@@ -1,14 +1,14 @@
 import GetIsMobile from '../utility/function/get-is-mobile';
 
 export default function ContactCard() {
-  let iconSize = 65;
+  let iconSize = 50;
   const isMobile = GetIsMobile();
   if (isMobile) {
     iconSize = 45;
   }
   return (
     // <div className="contact-card">
-    <div className={isMobile ? ' contact-card pt-20' : 'contact-card pt-32'}>
+    <div className={isMobile ? ' contact-card pt-12' : 'contact-card pt-20'}>
       <div className="contact-card-header">
         <div className="contact-card-image-frame">
           <div className="contact-card-image">
