@@ -17,7 +17,7 @@ const experienceData = [
     role: 'Student',
     summary: "My experience at Tech Elevator's Full-Time Coding Bootcamp was both intense and rewarding, taking me from a novice programmer to a skilled web developer in just a few short months. Throughout the program, I became accustomed to paired programming, Agile methodology, and version source control strategies which prepared me well for an introduction to the tech industry.",
     bulletArray: [
-      'Acquired proficiency in full-stack web development stratagies and technologies including Java, HTML, CSS, modern JavaScript frameworks and SQL.',
+      'Acquired proficiency in full-stack web development strategies and technologies including Java, HTML, CSS, modern JavaScript frameworks and SQL.',
       'Successfully completed a rigorous 14-week coding bootcamp, accumulating over 800 hours of hands-on development education and practical experience.'
     ],
   },
@@ -26,7 +26,7 @@ const experienceData = [
     duration: 'September 2019 - August 2020',
     image: 'citizens',
     role: 'Commissary Assistant',
-    summary: 'During my role at Citizens I worked closely with a small team to stock and maintain regular supply for five restauraunt storefront locations. This position entailed daily execution of large-scale recipes and efficient management of invoices and orders across multiple locations.',
+    summary: 'During my role at Citizens I worked closely with a small team to stock and maintain regular supply for five restaurant storefront locations. This position entailed daily execution of large-scale recipes and efficient management of invoices and orders across multiple locations.',
     bulletArray: [
       'Executed large scale recipe instructions for an extensive seasonal breakfast and lunch menu.',
       'Daily meal prep delivery through Uber to update and organize five individual storefront inventories based in Manhattan.'
