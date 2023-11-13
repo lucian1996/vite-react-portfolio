@@ -38,13 +38,13 @@ export default function Experience(data: JobProps) {
               alt={data.image}
             />
           </div>
-          <div className="header-image-container">
+          {/* <div className="header-image-container">
             <img
               className="header-image"
               src={'/' + data.image + '-map.png'}
               alt={data.image}
             />
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="footer">

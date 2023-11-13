@@ -10,7 +10,7 @@
   /* background-color: rgba(64, 94, 66, 0.41); */
   display: flex;
   justify-content: center;
-  padding-bottom: 25px;
+  padding-bottom: 12px;
   font-weight: 400;
   font-size: 18pt;
 }
@@ -23,7 +23,7 @@
 }
 #Experience .header-image-container {
   /* background-color: rgba(132, 20, 20, 0.213); */
-  width: 40%;
+  width: 50%;
   display: flex;
   justify-content: center;
 }
@@ -35,7 +35,7 @@
 #Experience .footer {
   /* background-color: rgba(102, 102, 102, 0.213); */
   padding-top: 1em;
-  padding-bottom: 35px;
+  padding-bottom: 30px;
 }
 #Experience .footer-summary {
   padding-top: 14px;
