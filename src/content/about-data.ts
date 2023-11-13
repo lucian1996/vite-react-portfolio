@@ -1,8 +1,33 @@
 const aboutData = {
   name: 'Luke Anthony',
-  info: ['Born June 12th 1996', 'Mason, Ohio'],
-  skills: ['JavaScript', 'React.js', 'Next.js', 'Vue.js', 'Redux', 'Prisma', 'HTML', 'CSS', 'Tailwind', 'Responsive Design', 'Java', 'Spring Boot', 'PostgreSQL', 'RESTful', 'APIs', 'E/R diagrams', 'Unit Testing', 'Integration Testing', 'Git', 'Unix'],
-  summary: "I am a full-stack web developer who grown into proficiency with both front-end and back-end technologies. Passsionate about creating end-to-end applications that prioritize optimal user interaction with information or tooling"
-}; 
+  info: ['June 12th 1996', 'Mason, Ohio'],
+  skills1: [
+    'JavaScript',
+    'React.js',
+    'Next.js',
+    'Vue.js',
+    'Redux',
+    'Prisma',
+    'HTML',
+    'CSS',
+    'Tailwind',
+    'Responsive Design',
+    'WordPress'
+  ],
+  skills2: [
+    'Java',
+    'Spring Boot',
+    'PostgreSQL',
+    'RESTful',
+    'APIs',
+    'E/R diagrams',
+    'Unit Testing',
+    'Integration Testing',
+    'Git',
+    'Unix'
+  ],
+  summary:
+    'Result-driven Web Developer with design experience and a strong command of HTML, CSS, and JavaScript. Proven ability to design visually appealing and optimized full-stack applications. Seeking experience in the field of commercial web development.'
+};
 
-export default aboutData
+export default aboutData;

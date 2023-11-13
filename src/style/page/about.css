@@ -1,6 +1,4 @@
-
-
-#About .frame { 
+#About .frame {
   /* background-color: rgba(15, 15, 174, 0.245); */
   margin: 0 auto;
   min-width: 400px;
@@ -8,7 +6,9 @@
   padding-bottom: 36px;
   padding: 10px;
   border-radius: 10px;
-} 
+  padding-bottom: 24px;
+  padding-top: 48px;
+}
 
 #About .header {
   /* background-color: darkblue; */
@@ -17,52 +17,67 @@
 }
 
 #About .header-left {
-  /* background-color: rgb(52, 52, 67); */
-  /* width: 500px; */
+  padding-top: 14px;
+  width: 260px;
 }
 
 #About .header-left-title {
-  text-align: center;
-  padding-top: 44px;
-  padding-bottom: 22px;
-  font-weight: 499;
+  font-weight: 300;
+  font-size: xx-large;
 }
-
-/* #About .header-left-info {} */
+#About .header-left-info {
+  font-weight: 300;
+  font-size: large;
+  padding-top: 6px;
+  padding-left: 12px;
+}
 
 #About .header-right,
 #About .image-container {
   /* background-color: darkblue; */
   position: relative;
-  width: 200px;
-}
-
-#About .image {
+  width: 150px;
+  margin-bottom: 14px;
 }
 
 #About .summary {
   min-width: 300px;
   max-width: 700px;
   margin: auto;
-  padding-left: 52px;
-  padding-right: 52px;
+  padding-left: 80px;
+  padding-right: 80px;
   padding-top: 21px;
-}
-
-#About .skills-title {
-  margin-top: 25px;
-  margin-bottom: 25px;
-  font-weight: 400;
+  padding-bottom: 14px;
 }
 
 #About .skills {
   min-width: 400px;
-  max-width: 500px;
+  max-width: 600px;
   margin: auto;
   text-align: center;
   display: flex;
-  flex-wrap: wrap; /* Add this to enable wrapping */
-  justify-content: center; /* Add this to evenly distribute skills */
+}
+#About .department {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 140px;
+  font-weight: 400;
+  padding-top: 78px;
+  padding-bottom: 25px;
+  padding-right: 15px;
+}
+
+#About .skills-content {
+  display: flex;
+  flex-direction: column;
+}
+
+#About .skills-content-title {
+  font-weight: 400;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  height: 50%;
 }
 
 #About .skills ul {
@@ -71,12 +86,10 @@
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 #About .skills li {
-  flex-basis: calc(
-    33.33% - 20px
-  ); /* Adjust the width as needed, accounting for margins */
-  margin: 10px; /* Add some margin between skills */
+  flex-basis: content;
+  margin: 8px; /* Adjust margin for spacing between items */
 }
