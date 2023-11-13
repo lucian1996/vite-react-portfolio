@@ -6,7 +6,7 @@ interface ProjectProps {
   summary: string;
   image: string;
   techArray: string[];
-  demoUrl: string;
+  demoUrl?: string;
   githubUrl: string;
   textLeft: boolean;
 }
