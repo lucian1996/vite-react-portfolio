@@ -1,14 +1,25 @@
 const projectData = [
   {
+    name: 'Splitscreen Video',
+    date: 'November 2023',
+    summary:
+      'Web based multi-screen media player that utilizes Zustand state management and for a responsive tiled media experience, designed for sporting events, audio / visual technicians and individuals who prefer multitasking.',
+    image: 'splitscreen-video',
+    techArray: ['next', 'zustand'],
+    demoUrl: 'https://splitscreen-video.vercel.app/',
+    githubUrl: 'https://github.com/lucian1996/splitscreen-video',
+    textLeft: true
+  },
+  {
     name: 'Personal Portfolio',
     date: 'September 2023',
     summary:
-      'Modern and lightweight portfolio designed to demonstrate an adept understanding of modern CSS alongside contemporary JavaScript libraries such as Framer Motion',
+      'Modern and lightweight portfolio designed to demonstrate an adept understanding of modern CSS alongside contemporary JavaScript libraries such as Framer Motion and emailJS',
     image: 'portfolio',
     techArray: ['vite', 'react'],
     demoUrl: 'https://lucian.bio/',
     githubUrl: 'https://github.com/lucian1996/vite-react-portfolio',
-    textLeft: true,
+    textLeft: true
   },
   {
     name: 'CinDay Computer Database',
@@ -19,8 +30,18 @@ const projectData = [
     techArray: ['next', 'react', 'prisma', 'redux'],
     demoUrl: 'https://computer-database-demo.vercel.app/',
     githubUrl: 'https://github.com/lucian1996/database-ui',
-    textLeft: false,
+    textLeft: false
   },
+  {
+    name: 'StockOverflow',
+    date: 'December 2022',
+    summary:
+      'Full-stack Vue application that utilizes RESTful API calls to store entries inside of a PostgreSQL database. The application features user authentication and a reactive front-end interface that enables users to create, read, update, and delete shared grocery lists.',
+    image: 'stockOverflow',
+    techArray: ['vue', 'springboot', 'java'],
+    githubUrl: 'https://github.com/lucian1996/stockOverflow',
+    textLeft: false
+  }
 ];
 
-export default projectData
+export default projectData;

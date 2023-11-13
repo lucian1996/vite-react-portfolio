@@ -1,4 +1,4 @@
-import GetIsMobile from "../utility/function/get-is-mobile";
+import GetIsMobile from '../utility/function/get-is-mobile';
 
 interface JobProps {
   company: string;
@@ -11,10 +11,10 @@ interface JobProps {
 
 export default function Experience(data: JobProps) {
   // Split the duration string into two parts using "-"
-  const durationParts = data.duration.split(" - ");
+  const durationParts = data.duration.split(' - ');
   const startDate = durationParts[0];
-  const endDate = durationParts[1] === "Current" ? "Present" : durationParts[1];
-  const isMobile = GetIsMobile()
+  const endDate = durationParts[1] === 'Current' ? 'Present' : durationParts[1];
+  const isMobile = GetIsMobile();
 
   const DurationFormat = () => {
     return (
@@ -29,19 +29,19 @@ export default function Experience(data: JobProps) {
   return (
     <div className={isMobile ? '' : 'job'}>
       <div className="header">
-        <div className='header-title'>{data.role}</div>
+        <div className="header-title">{data.role}</div>
         <div className="header-images">
           <div className="header-image-container">
             <img
               className="header-image"
-              src={"/" + data.image + ".png"}
+              src={'/' + data.image + '.png'}
               alt={data.image}
             />
           </div>
           <div className="header-image-container">
             <img
               className="header-image"
-              src={"/" + data.image + "-map.png"}
+              src={'/' + data.image + '-map.png'}
               alt={data.image}
             />
           </div>

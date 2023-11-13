@@ -1,4 +1,4 @@
-import GetIsMobile from "../utility/function/get-is-mobile";
+import GetIsMobile from '../utility/function/get-is-mobile';
 
 interface ProjectProps {
   name: string;
@@ -13,9 +13,13 @@ interface ProjectProps {
 
 export default function Project(data: ProjectProps) {
   function TechIcons({ reverse }: { reverse?: boolean }) {
-    const techIconsArray = data.techArray.map(tech => (
-      <img key={tech} src={`/${tech}.svg`} alt={tech} className={isMobile ? 'w-10 p-1' : "icon"} />
-      // width = { 72} height = { 72}
+    const techIconsArray = data.techArray.map((tech, index) => (
+      <img
+        key={index}
+        src={`/${tech}.svg`}
+        alt={tech}
+        className={isMobile ? 'w-10 p-1' : 'icon'}
+      />
     ));
     if (reverse) {
       techIconsArray.reverse();
@@ -23,14 +27,16 @@ export default function Project(data: ProjectProps) {
     return techIconsArray;
   }
 
-  const isMobile = GetIsMobile()
+  const isMobile = GetIsMobile();
   // if (data.textLeft) {
   return (
     <div className="project">
       <div className="header">
         <div className="header-left">
           <div className="header-left-upper">
-            <div className={isMobile ? 'font-normal text-center':"header-title"}>{data.name}</div>
+            <div className={isMobile ? 'font-normal text-center' : 'header-title'}>
+              {data.name}
+            </div>
             <div className="header-release">{data.date}</div>
           </div>
           <div className="header-tech">
@@ -49,9 +55,13 @@ export default function Project(data: ProjectProps) {
         <a href={data.githubUrl} target="_blank">
           Github
         </a>
-        <a href={data.demoUrl} target="_blank">
-          Demo
-        </a>
+        {data.demoUrl ? (
+          <a href={data.demoUrl} target="_blank">
+            Demo
+          </a>
+        ) : (
+          <a className="mr-10"></a>
+        )}
       </div>
       <div className="summary">{data.summary}</div>
     </div>
