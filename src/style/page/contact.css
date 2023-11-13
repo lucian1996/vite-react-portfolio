@@ -74,7 +74,7 @@ textarea:focus {
 /* #Contact .contact-card-image {} */
 #Contact .contact-card-header-info {
   /* background-color: rgba(105, 160, 95, 0.346); */
-  width: 75%;
+  width: 100%;
   margin-left: 40px;
   display: flex;
   flex-direction: column;

@@ -10,11 +10,11 @@ export default function ContactCard() {
     // <div className="contact-card">
     <div className={isMobile ? ' contact-card pt-12' : 'contact-card pt-20'}>
       <div className="contact-card-header">
-        <div className="contact-card-image-frame">
+        {/* <div className="contact-card-image-frame">
           <div className="contact-card-image">
-            <img src="/lucian.png" alt="lucian" width={isMobile ? 100 : 200} />
+            <img src="/lucian-rounded.png" alt="lucian" width={isMobile ? 100 : 200} />
           </div>
-        </div>
+        </div> */}
         <div className="contact-card-header-info">
           <div className="contact-card-header-info-name">Luke Anthony</div>
           <div className="contact-card-header-info-title">Web Developer</div>

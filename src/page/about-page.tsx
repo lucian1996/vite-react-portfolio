@@ -33,7 +33,7 @@ export default function AboutPage() {
             </div>
             <div className="header-right">
               <div className="image-container">
-                <img src="/lucian-selfie.jpg" alt="lucain" className="image" />
+                <img src="/lucian.jpg" alt="lucain" className="image" />
                 <div className="image-overlay"></div>
               </div>
             </div>
