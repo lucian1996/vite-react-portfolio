@@ -40,13 +40,15 @@
 #Projects .header-title {
   /* background-color: rgba(48, 48, 123, 0.264); */
   text-align: center;
-  font-weight: normal;
+  font-weight: lighter;
   font-size: 16pt;
   height: 50%;
 }
 #Projects .header-release {
   /* background-color: rgba(48, 123, 52, 0.264); */
+  font-weight: 100;
   text-align: center;
+  font-size: 11pt;
   height: 50%;
 }
 
