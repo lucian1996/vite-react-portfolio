@@ -5,7 +5,7 @@ const projectData = [
     summary:
       'Web based multi-screen media player that utilizes Zustand state management and for a responsive tiled media experience, designed for sporting events, audio / visual technicians and individuals who prefer multitasking.',
     image: 'splitscreen-video',
-    techArray: ['next', 'zustand'],
+    techArray: ['next', 'react', 'zustand'],
     demoUrl: 'https://splitscreen-video.vercel.app/',
     githubUrl: 'https://github.com/lucian1996/splitscreen-video',
     textLeft: true
