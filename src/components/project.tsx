@@ -34,9 +34,7 @@ export default function Project(data: ProjectProps) {
       <div className="header">
         <div className="header-left">
           <div className="header-left-upper">
-            <div className={isMobile ? 'font-normal text-center' : 'header-title'}>
-              {data.name}
-            </div>
+            <div className={isMobile ? ' text-center' : 'header-title'}>{data.name}</div>
             <div className="header-release">{data.date}</div>
           </div>
           <div className="header-tech">
